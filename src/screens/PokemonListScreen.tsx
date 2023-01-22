@@ -38,9 +38,6 @@ export default function PokemonListScreen() {
         title="Next Page"
         disabled={currentPage === 20}
         onPress={() => {
-          const { initialNum, finalNum } = calcCurrentPageValues(
-            currentPage + 1
-          );
           fetchOf20Pokemons(currentPage, +1);
         }}
       />
@@ -49,9 +46,6 @@ export default function PokemonListScreen() {
         title="Prev Page"
         disabled={currentPage === 1}
         onPress={() => {
-          const { initialNum, finalNum } = calcCurrentPageValues(
-            currentPage - 1
-          );
           fetchOf20Pokemons(currentPage, -1);
         }}
       />
