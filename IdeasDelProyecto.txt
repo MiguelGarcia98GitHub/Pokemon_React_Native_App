@@ -1,0 +1,7 @@
+VERSIÓN BASE:
+- Estado global con Zustand
+- Modales de error cuando falle fetch
+- Drawer, con las distintas screens:
+Screen 1 -> Pokemon List (que muestre solo imagen, nombre e id en pequeño)
+Screen 2 -> Pokemon Search (que muestre la info con detalles, la imagen del pokemon en grande)
+Screen 3 -> Pokemon Favorites (need backend)
